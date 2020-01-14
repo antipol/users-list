@@ -1,0 +1,22 @@
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    text-align: left;
+    margin: 0.5em;
+}
+
+button {
+    margin: 0.5em;
+    padding: 0.2em;
+    font-family: monospace;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: chartreuse;
+}

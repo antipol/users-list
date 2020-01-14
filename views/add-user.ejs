@@ -1,0 +1,17 @@
+<%- include("includes/head.ejs") %>
+<link rel="stylesheet" href="/css/forms.css">
+
+<%- include("includes/nav.ejs") %>
+
+<main>
+    <div class="main-container">
+        <h1>Create a user</h1>
+        <form action="/add-user" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <button type="submit">Add User</button>
+        </form>
+    </div>
+</main>
+
+<%- include("includes/end.ejs") %>

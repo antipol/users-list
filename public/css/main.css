@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+li {
+    list-style: none;
+    padding: 1em;;
+}
+
+a {
+    padding: 0.5em;
+    color: black;
+}
+
+a:hover, a.active {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    padding: 1em;
+}
+
